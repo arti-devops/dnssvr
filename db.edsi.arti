@@ -7,5 +7,5 @@ $TTL 3600
                         86400           ; Minimum TTL
                         )
 @       IN      NS      ns1.example.com.
-@       IN      A       192.168.0.218
+@       IN      A       192.168.0.9
 _http._tcp.edsi.arti. IN      SRV     0 0 8999 edsi.arti.
