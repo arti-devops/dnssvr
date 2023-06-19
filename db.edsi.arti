@@ -1,0 +1,11 @@
+$TTL 3600
+@       IN      SOA     ns1.edsi.arti. admin.edsi.arti. (
+                        2023053001      ; Serial
+                        3600            ; Refresh
+                        1800            ; Retry
+                        604800          ; Expire
+                        86400           ; Minimum TTL
+                        )
+@       IN      NS      ns1.example.com.
+@       IN      A       192.168.0.218
+_http._tcp.edsi.arti. IN      SRV     0 0 8999 edsi.arti.

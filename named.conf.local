@@ -1,0 +1,11 @@
+zone "artirion.ci" {
+    type master;
+    file "/etc/bind/db.artirion.ci";
+};
+
+
+zone "edsi.arti" {
+    type master;
+    file "/etc/bind/db.edsi.arti";
+};
+
